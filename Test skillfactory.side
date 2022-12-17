@@ -1,0 +1,105 @@
+{
+  "id": "48842f81-93d7-45f9-9f9a-cffce252995d",
+  "version": "2.0",
+  "name": "Test skillfactory",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "5a36c257-bb8b-4b16-a995-d95e605905f0",
+    "name": "Test zadanie 29.6",
+    "commands": [{
+      "id": "08176fb3-3042-4c65-91c1-375ef3a581e3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74c45121-541b-46fe-a317-1ac95d26c2c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dced3a23-b07b-4f16-b19f-6886c5b3e51a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__4567460551563736040421 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__4567460551563736040421 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[9]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a257142f-243a-44bd-bdd1-d61ab0460c18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__4567460551563736040421 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__4567460551563736040421 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[9]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e3e7fad-fc40-4ff1-990b-098362410125",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__4567460551563735937155 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__4567460551563735937155 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3935-6161-4263-b638-623138373033/photo.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[7]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ef259e-6e25-451c-8910-978a56ac3026",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Программирование",
+      "targets": [
+        ["linkText=Программирование", "linkText"],
+        ["css=.t976__list-item:nth-child(3) > .t976__menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Программирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec520657663']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/programmirovanie')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "897957af-bbce-4ff2-b70c-0a0f23d60529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5205735261652779744723 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5205735261652779744723 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec520573526']/div/div/div[41]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/start-it-specialist-proforientaciya?utm_source=yandex&utm_medium=cpc&utm_campaign=none_sf_all_yandex_cpc_general_brand-poisk_none_reg_sf_all&utm_content=all&utm_term=63656573|skillfactory|38714656022|38714656022&param=skillfactory')])[2]", "xpath:href"],
+        ["xpath=//div[41]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5924",
+      "windowTimeout": 2000
+    }, {
+      "id": "d9e0bda8-ee84-4c92-8599-1224306b82ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5924}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e074e643-7f77-4cb9-b5c1-2531cc1b3611",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a36c257-bb8b-4b16-a995-d95e605905f0"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
